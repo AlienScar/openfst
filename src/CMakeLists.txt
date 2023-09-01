@@ -14,5 +14,7 @@ endif(HAVE_BIN)
 
 add_subdirectory(extensions)
 
-enable_testing()
-add_subdirectory(test)
+if (BUILDING_TEST)
+  enable_testing()
+  add_subdirectory(test)
+endif()

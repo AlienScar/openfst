@@ -23,7 +23,7 @@ install(TARGETS fstngram
 	RUNTIME DESTINATION lib
 )
 
-add_library(ngram_fst MODULE
+add_library(ngram_fst 
     bitmap-index.cc 
     ngram-fst.cc 
     nthbit.cc

@@ -38,17 +38,6 @@ target_link_libraries(fstspecial
   fst
 )
 
-set(FST_SPECIAL_INSTALL_TARGETS fstspecial)
-if(HAVE_BIN)
-  list(APPEND FST_SPECIAL_INSTALL_TARGETS fstspecial-bin)
-endif()
-
-install(TARGETS ${FST_SPECIAL_INSTALL_TARGETS}
-  LIBRARY DESTINATION lib
-  RUNTIME DESTINATION bin
-  ARCHIVE DESTINATION lib
-)
-
 function (add_module _name)
     add_library(${ARGV})
     if (TARGET ${_name})
@@ -62,8 +51,8 @@ function (add_module _name)
     install(TARGETS ${_name} LIBRARY DESTINATION lib/fst)
 endfunction()
 
-add_module(phi-fst MODULE phi-fst.cc)
-add_module(rho-fst MODULE rho-fst.cc)
-add_module(sigma-fst MODULE sigma-fst.cc)
+add_module(phi-fst phi-fst.cc)
+add_module(rho-fst rho-fst.cc)
+add_module(sigma-fst sigma-fst.cc)
 
 

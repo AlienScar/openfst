@@ -12,11 +12,11 @@ function (add_module _name)
 endfunction()
 
 
-add_module(const8-fst MODULE const8-fst.cc)
+add_module(const8-fst const8-fst.cc)
 
-add_module(const16-fst MODULE const16-fst.cc)
+add_module(const16-fst const16-fst.cc)
 
-add_module(const64-fst MODULE const64-fst.cc)
+add_module(const64-fst const64-fst.cc)
 
 add_library(fstconst 
   const8-fst.cc 

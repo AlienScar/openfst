@@ -29,13 +29,13 @@ function (add_module _name)
     install(TARGETS ${_name} LIBRARY DESTINATION lib/fst)
 endfunction()
   
-add_module(arc_lookahead-fst MODULE
+add_module(arc_lookahead-fst 
   arc_lookahead-fst.cc)
  
-add_module(ilabel_lookahead-fst MODULE
+add_module(ilabel_lookahead-fst 
   ilabel_lookahead-fst.cc)
 
-add_module(olabel_lookahead-fst MODULE
+add_module(olabel_lookahead-fst 
   olabel_lookahead-fst.cc)
 
 

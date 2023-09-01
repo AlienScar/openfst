@@ -63,9 +63,9 @@ function (add_module _name)
     install(TARGETS ${_name} LIBRARY DESTINATION lib/fst)
 endfunction()
 
-add_module(linear-tagger-fst MODULE
+add_module(linear-tagger-fst 
   linear-tagger-fst.cc)
 
-add_module(linear-classifier-fst MODULE
+add_module(linear-classifier-fst 
   linear-classifier-fst.cc)
 

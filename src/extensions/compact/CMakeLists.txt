@@ -45,49 +45,49 @@ function (add_module _name)
             RUNTIME DESTINATION lib/fst)
 endfunction()
 
-add_module(compact8_acceptor-fst MODULE
+add_module(compact8_acceptor-fst
   compact8_acceptor-fst.cc)
  
-add_module(compact8_string-fst MODULE
+add_module(compact8_string-fst
   compact8_string-fst.cc)
  
-add_module(compact8_unweighted-fst MODULE
+add_module(compact8_unweighted-fst 
   compact8_unweighted-fst.cc)
  
-add_module(compact8_unweighted_acceptor-fst MODULE
+add_module(compact8_unweighted_acceptor-fst 
   compact8_unweighted_acceptor-fst.cc)
  
-add_module(compact8_weighted_string-fst MODULE
+add_module(compact8_weighted_string-fst 
   compact8_weighted_string-fst.cc)
  
-add_module(compact16_acceptor-fst MODULE
+add_module(compact16_acceptor-fst 
   compact16_acceptor-fst.cc)
  
-add_module(compact16_string-fst MODULE
+add_module(compact16_string-fst 
   compact16_string-fst.cc)
  
-add_module(compact16_unweighted-fst MODULE
+add_module(compact16_unweighted-fst 
   compact16_unweighted-fst.cc)
  
-add_module(compact16_unweighted_acceptor-fst MODULE
+add_module(compact16_unweighted_acceptor-fst 
   compact16_unweighted_acceptor-fst.cc)
  
-add_module(compact16_weighted_string-fst MODULE
+add_module(compact16_weighted_string-fst 
   compact16_weighted_string-fst.cc)
  
-add_module(compact64_acceptor-fst MODULE
+add_module(compact64_acceptor-fst 
   compact64_acceptor-fst.cc)
  
-add_module(compact64_string-fst MODULE
+add_module(compact64_string-fst 
   compact64_string-fst.cc)
  
-add_module(compact64_unweighted-fst MODULE
+add_module(compact64_unweighted-fst 
   compact64_unweighted-fst.cc)
  
-add_module(compact64_unweighted_acceptor-fst MODULE
+add_module(compact64_unweighted_acceptor-fst 
   compact64_unweighted_acceptor-fst.cc)
  
-add_module(compact64_weighted_string-fst MODULE
+add_module(compact64_weighted_string-fst
   compact64_weighted_string-fst.cc)
 
 
