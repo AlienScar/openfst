@@ -29,6 +29,6 @@ option(HAVE_LOOKAHEAD "Build lookahead" ON)
 option(HAVE_NGRAM "Build ngram" ON)
 option(HAVE_PYTHON "Build python" OFF)
 option(HAVE_SPECIAL "Build special" ON)
-
+add_compile_options(-fPIC)
 add_subdirectory(src)
 
